@@ -1,4 +1,4 @@
-# svg-logo-maker
+# SVG-Logo-Maker
 
 # Table of Contents: 
 - [Description](#description)
