@@ -52,7 +52,7 @@ const createLogo = () => {
             // TODO: Set svg shape with shape object created above
             svg.setShape(logoShape);
             // TODO: Write your svg file
-            writeFile('logo.svg', svg.render(), (err) => {
+            return writeFile('logo.svg', svg.render(), (err) => {
                 err ? console.error(err) : console.log('SVG Created!')
             });
         })
